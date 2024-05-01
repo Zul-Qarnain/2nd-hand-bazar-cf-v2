@@ -1,5 +1,4 @@
 export const runtime = "edge";
-
 export default function NotFound() {
   return (
     <>
@@ -22,7 +21,6 @@ export default function NotFound() {
     </>
   );
 }
-
 const styles = {
   error: {
     fontFamily:
@@ -34,11 +32,9 @@ const styles = {
     alignItems: "center",
     justifyContent: "center",
   },
-
   desc: {
     display: "inline-block",
   },
-
   h1: {
     display: "inline-block",
     margin: "0 20px 0 0",
@@ -48,7 +44,6 @@ const styles = {
     verticalAlign: "top",
     lineHeight: "49px",
   },
-
   h2: {
     fontSize: 14,
     fontWeight: 400,
@@ -56,3 +51,4 @@ const styles = {
     margin: 0,
   },
 } as const;
+//Stop watching hentai bro :)
